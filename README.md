@@ -1,4 +1,3 @@
-
 terraform init
 terraform validate
 terraform plan -var external_ip=$(curl -s ifconfig.me)/32
